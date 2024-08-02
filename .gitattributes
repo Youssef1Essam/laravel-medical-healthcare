@@ -1,17 +1,13 @@
-* text=auto
+# Ignore minified JavaScript files
+*.min.js linguist-vendored
 
-.github/ export-ignore
-tests/ export-ignore
+# Ignore minified CSS files
+*.min.css linguist-vendored
 
-app/ export-ignore
-docs/ export-ignore
-excludes/ export-ignore
+# Ignore documentation files
+/path/to/docs linguist-documentation
 
-.editorconfig export-ignore
-.env.example export-ignore
-.gitattributes export-ignore
-.gitignore export-ignore
+# Ignore specific JavaScript files
+app.js linguist-vendored
+bootstrap.js linguist-vendored
 
-package.json export-ignore
-
-phpunit.xml export-ignore
